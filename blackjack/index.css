@@ -1,0 +1,48 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+    text-align: center;
+    background-image:url("https://raw.githubusercontent.com/jeyanth-jr/blackjack/main/images/table.png");
+    background-size:cover;
+}
+
+h1{
+    color: goldenrod;
+}
+p{
+    font-size: larger;
+    color: azure;
+}
+button{
+    background-color: goldenrod;
+    color: darkgreen;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 180px;
+    text-align: center;
+    align-self: center;
+}
+button:hover{
+    cursor: pointer;
+}
+h2{
+    color:goldenrod;
+    text-decoration: underline;
+}
+ol{
+    text-align: left;
+    color: azure;
+}
+a{
+    margin: 10px;
+    color: white;
+}
+#welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
